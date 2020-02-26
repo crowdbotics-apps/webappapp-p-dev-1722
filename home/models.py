@@ -31,3 +31,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Testt(models.Model):
+    "Generated Model"
+    name = models.CharField(max_length=256,)
